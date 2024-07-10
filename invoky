@@ -2,7 +2,7 @@ rem replace Github Username with yours and put links to the repo
 $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL1 = 'https://raw.githubusercontent.com/yourusername/yourrepository/master/yourfile.cmd'
+$DownloadURL1 = 'https://github.com/Pharao-net/Invoky/blob/main/cmd.cmd'
 $DownloadURL2 = 'path to your Batchfile'
 
 $URLs = @($DownloadURL1, $DownloadURL2)
